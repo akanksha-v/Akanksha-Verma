@@ -1,0 +1,243 @@
+html{scroll-behavior: smooth;}
+
+.intro{position: relative;
+    background-color: #f84ca2;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height:620px;
+    
+}
+#name{
+    position:absolute;
+    top:20px;
+    left:50px;
+    font-family: 'Sacramento', cursive;
+    font-size:60px;
+    color:white;
+    z-index: 2;
+}
+
+#para1{
+    font-family: 'EB Garamond', serif;
+    font-size:55px;
+    font-weight: bold;
+     float:right;
+     color:white;
+     position:relative;
+     top:200px;
+     right:100px;
+     height:auto;
+     width:350px;
+
+}
+#my-pic{
+    position:relative;
+    top:300px;
+    float:left;
+    left:380px;
+    height:550px;
+    width:390px;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: white;
+    padding:5px;
+    margin:10px;
+}
+button{
+    position:absolute;
+    top:20px;
+    left:20px;
+    height: 20px;
+    width:20px;
+    color:white;
+
+}
+.about{position: relative;
+   
+    background-attachment: scroll;
+    top:350px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height:700px;
+    border-bottom-width:2px;
+    border-color:#f84ca2;
+    border-left-width: 2px;
+    border-right-width:0px;
+    border-top-width: 0px;
+    
+    border-style:solid;
+
+}
+#para2{position:relative;
+    font-family: 'Baloo 2', cursive;
+    color:#44f08b;
+    font-size:36px;
+    height:auto;
+    top:50px;
+    width:500px;
+    left:100px;
+    float:left;
+}
+h3{color:#f84ca2;
+    box-align:center;
+    font-size:40px;
+    
+}
+#bitmoji{
+    position:relative;
+    height:auto;
+    width:auto;
+     top:200px; 
+    float:right;
+    right:190px;
+}
+.work{position: relative;
+    background-color: white;
+    background-attachment: scroll;
+    top:350px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height:700px;
+   }
+
+   h2{position:relative;
+       font-family: 'Gotu', sans-serif;
+    font-size:40px;
+font-weight:bold;
+top:100px;
+left:500px;
+text-decoration: underline;
+color:#f84ca2;}
+
+#para3{position: relative;
+    top:150px;
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    font-family: 'Amita', cursive;
+   font-size: 32px;
+   color:#f84ca2;
+   justify-content: space-around;
+   
+}
+#work1,#work2,#work3{ 
+    position: relative;
+    height:300px;
+    width:340px;
+    box-shadow:20px 20px 0px #44f08b;
+    
+}
+
+#work1:hover,#work2:hover,#work3:hover{
+    transform:scale(1.12);
+}
+
+#para4
+{ position:relative;
+  top:335px;
+  left:370px;
+  font-family: 'Amita', cursive;
+  font-size: 36px;
+  color:#f84ca2;
+   }
+   #logo{
+       position: relative;
+       /* left:600px; */
+       height:80px;
+       width:80px;
+       top:18px;
+       border-radius:100%;
+       border-color:#44f08b;
+       border-width:4px;
+       border-style:solid;
+      
+   }
+   #logo:hover{
+       transform:scale(1.07);
+   }
+
+   .contact{
+    position: relative;
+    top:400px;
+    background-color: #f84ca2;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height:300px; 
+   }
+
+   #para5{position:relative;
+    /* top:10px; */
+   color:white;
+    left:400px;
+    font-family: 'Amita', cursive;
+    font-size: 36px;
+    
+   }
+#fb,#insta{
+    position: relative;
+    /* left:600px; */
+    height:60px;
+    width:60px;
+    top:18px;
+    border-radius:100%;
+    border-color:white;
+    border-width:4px;
+    border-style:solid;
+}
+
+#fb:hover,#insta:hover{
+    transform:scale(1.05);
+}
+
+
+   .last{
+    position: relative;
+    top:300px;
+    height:200px;
+    background-color:white; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+ }
+
+   #con{
+
+    position: relative;
+    top:86px;
+    left:500px;
+    font-family: 'Sacramento', cursive;
+    font-size: 44px;
+    color:#44f08b;
+}
+#heart img{
+    position: relative;
+    left:45%;
+    right:0;
+    margin:0 auto;
+    z-index: 5;
+   }
+  
+   @keyframes heartFadeInOut {
+    0% {transform: scale(1);}
+    25% {transform: scale(.97);}
+    35% {transform: scale(.9);}
+    45% {transform: scale(1.1);}
+    55% {transform: scale(.9);}
+    65% {transform: scale(1.1);}
+    75% {transform: scale(1.03);}
+    100% {transform: scale(1);}
+  }
+  
+  #heart img.bottom { 
+    animation-name: heartFadeInOut; 
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
