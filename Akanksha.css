@@ -1,5 +1,18 @@
 html{scroll-behavior: smooth;}
 
+
+a{
+    text-decoration: none;
+}
+
+/* #sidebar{
+    position:fixed;
+    top:100px;
+    height:
+
+} */
+
+
 .intro{position: relative;
     background-color: #f84ca2;
     background-attachment: fixed;
@@ -11,7 +24,7 @@ html{scroll-behavior: smooth;}
 }
 #name{
     position:absolute;
-    top:20px;
+    top:40px;
     left:50px;
     font-family: 'Sacramento', cursive;
     font-size:60px;
@@ -34,16 +47,17 @@ html{scroll-behavior: smooth;}
 }
 #my-pic{
     position:relative;
-    top:300px;
+    top:270px;
     float:left;
     left:380px;
     height:550px;
     width:390px;
-    outline-width: 2px;
+    /* outline-width: 2px;
     outline-style: solid;
-    outline-color: white;
+    outline-color: white; */
     padding:5px;
     margin:10px;
+    border-radius: 100%;
 }
 button{
     position:absolute;
@@ -57,7 +71,7 @@ button{
 .about{position: relative;
    
     background-attachment: scroll;
-    top:350px;
+    top:320px;
    
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,6 +145,7 @@ color:#f84ca2;}
     height:300px;
     width:340px;
     box-shadow:20px 20px 0px #44f08b;
+    background-color: #d3d3d3;
     
 }
 
@@ -141,7 +156,7 @@ color:#f84ca2;}
 #para4
 { position:relative;
   top:335px;
-  left:370px;
+  left:390px;
   font-family: 'Amita', cursive;
   font-size: 36px;
   color:#f84ca2;
@@ -164,7 +179,7 @@ color:#f84ca2;}
 
    .contact{
     position: relative;
-    top:400px;
+    top:500px;
     background-color: #f84ca2;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -174,18 +189,18 @@ color:#f84ca2;}
    }
 
    #para5{position:relative;
-    /* top:10px; */
+    top:10px; 
    color:white;
-    left:400px;
+    left:350px;
     font-family: 'Amita', cursive;
-    font-size: 36px;
+    font-size: 26px;
     
    }
 #fb,#insta{
     position: relative;
     /* left:600px; */
-    height:60px;
-    width:60px;
+    height:40px;
+    width:40px;
     top:18px;
     border-radius:100%;
     border-color:white;
@@ -260,3 +275,6 @@ color:#f84ca2;}
     height:50px;
     width:50px;
   }
+  #myBtn:hover{
+    transform:scale(1.07);
+}
