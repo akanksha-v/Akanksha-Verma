@@ -1,5 +1,6 @@
 html{scroll-behavior: smooth;}
-
+body
+{ overflow-x:hidden; }
 
 a{
     text-decoration: none;
@@ -12,6 +13,7 @@ a{
     background-size: cover;
     margin: 0 auto;
     height:620px;
+    max-width:100%;
     
 }
 #name{
@@ -61,7 +63,7 @@ button{
 
 }
 .about{position: relative;
-   
+     max-width:100%;
     background-attachment: scroll;
     top:180px;
     background-repeat: no-repeat;
@@ -105,7 +107,7 @@ h3{color:#f84ca2;
     background-color: white;
     background-attachment: scroll;
     top:350px;
-  
+    max-width:100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -175,12 +177,14 @@ h3{color:#f84ca2;
    .contact{
     position: relative;
     top:500px;
+    max-width:100%;
     background-color: #f84ca2;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
     height:300px; 
+    width:100%;
    }
 
    #para5{position:relative;
@@ -212,6 +216,7 @@ h3{color:#f84ca2;
     position: relative;
     top:300px;
     height:200px;
+    max-width:100%;
     background-color:white; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -319,11 +324,7 @@ width:4px;}
            font-weight: normal;
            margin:10px;
            text-decoration: none;
-        
             }
-        /* hr{
-            display:inline;
-        } */
         
         #para3{
             justify-content:space-between;
