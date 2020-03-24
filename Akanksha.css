@@ -5,15 +5,54 @@ body
 a{
     text-decoration: none;
 }
+#sidebar{position: absolute;
+          top:200px;
+    display: flex;
+    height:50px;
+    width:auto;
+    color:white;
+    flex-direction: column;
+    font-family: 'Baloo 2', cursive;
+    font-size:20px;
+}
+@keyframes slide{
+    0%{left:0%;}
+    100%{left:10%;}
+}
 
+#a,#w,#c{
+    height:30px;
+    width:auto;
+    left:50px;
+    color:white;
+    border-color:white;
+    border-width:4px;
+    border-style:solid;
+    padding: 2px;
+    margin:5px auto;
+    border-left-width: 0px;
+}
+#a:hover,#w:hover,#c:hover{
+ /* animation-name: slide;
+ animation-duration: 1s;
+ animation-iteration-count: 1;
+ animation-direction: normal;
+ animation-delay: 0s; */
+ transform: scale(1.08);
+ background-color: white;
+ color: #f84ca2;
+ font-weight: bolder;
+ /* border-color:#44f08b; */
+}
 .intro{position: relative;
     background-color: #f84ca2;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height:620px;
     max-width:100%;
+    
     
 }
 #name{
@@ -62,23 +101,26 @@ button{
     color:white;
 
 }
-.about{position: relative;
-     max-width:100%;
+#about{
+    position: relative;
+    max-width:100%;
     background-attachment: scroll;
     top:180px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
     margin: 0 auto;
-    height:700px;
-    /* border-bottom-width:2px;
-    border-color:#f84ca2;
+    height:700px;  
+
+  /*border-bottom-width:2px;
+    border-color:#f84ca2;  
     border-left-width: 2px;
     border-right-width:0px;
-    border-top-width: 0px;
-    border-style:solid; */
+    border-top-width:  0px;
+    border-style:solid;   */ 
 
 }
-#para2{ position:relative; 
+#para2{
+    position:relative; 
     font-family: 'Baloo 2', cursive;
     color:#44f08b;
     font-size:36px;
@@ -86,8 +128,7 @@ button{
     top:50px;
     width:500px;
     left:100px;
-    float:left;
-}
+    float:left;}
 h3{color:#f84ca2;
     box-align:center;
     font-size:40px;
@@ -103,7 +144,7 @@ h3{color:#f84ca2;
     float:right;
     right:190px;
 }
-.work{position: relative;
+#work{position: relative;
     background-color: white;
     background-attachment: scroll;
     top:350px;
@@ -174,7 +215,7 @@ h3{color:#f84ca2;
        transform:scale(1.07);
    }
 
-   .contact{
+   #contact{
     position: relative;
     top:500px;
     max-width:100%;
@@ -287,14 +328,15 @@ width:4px;}
 @media screen and (max-width:800px) 
 {
 
-    #my-pic{position: relative;
+    #my-pic{
+        position: relative;
         top:150px;
         left:16%;
         float:none;
         height:400px;
         width:300px;
         border-color:white;
-    }
+           }
         
         #name{
             font-size:50px;
@@ -333,11 +375,10 @@ width:4px;}
             left:18%;  
         }
         #work1,#work2,#work3{ 
-              
                 height:250px;
                 width:340px;
-            box-shadow:10px 10px 0px #44f08b;
-            padding:5px;
+                box-shadow:10px 10px 0px #44f08b;
+                padding:5px;
             /* margin:10px; */
             
         }
