@@ -125,9 +125,9 @@ button{
     color:#44f08b;
     font-size:36px;
     height:auto;
-    top:50px;
+   margin-top:50px;
     width:500px;
-    left:100px;
+    margin-left:100px;
     float:left;}
 h3{color:#f84ca2;
     box-align:center;
@@ -147,7 +147,8 @@ h3{color:#f84ca2;
 #work{position: relative;
     background-color: white;
     background-attachment: scroll;
-    top:350px;
+   top:250px;
+   margin-bottom:auto ;
     max-width:100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +167,9 @@ h3{color:#f84ca2;
 
 
 #para3{position: relative;
-    top:150px;
+    margin-bottom:50px ;
+    margin-right: 0px;
+    top:100px;
     display:flex;
     flex-direction: row; 
     flex-wrap: wrap; 
@@ -192,7 +195,7 @@ h3{color:#f84ca2;
 
 #para4
 { position:relative;
-  top:335px;
+  top:235px;
   left:390px;
   font-family: 'Amita', cursive;
   font-size: 36px;
@@ -268,7 +271,8 @@ h3{color:#f84ca2;
 
     position: relative;
     top:86px;
-    left:500px;
+    left:33.5%;
+    
     font-family: 'Sacramento', cursive;
     font-size: 44px;
     color:#44f08b;
@@ -301,7 +305,7 @@ h3{color:#f84ca2;
   #myBtn{
     display: none; 
     position: sticky;
-    bottom: 20px;
+    bottom: 10px;
     left: 1400px; 
     z-index: 99;
     font-size: 18px;
@@ -344,21 +348,25 @@ width:4px;}
         #para1{
             display:none;
         }
+        #about{
+            /* height:auto; */
+        }
         #para2{
             font-size: 30px;
             top:0px;
             width:400px;
-            left:10%;
+            
+            height: auto;
         }
-        .about{
+        #about{
             top:10px;
         }
         #bitmoji{
             top:50px;
-            left:2%;
+         height:auto;
         }
-        .work{
-            height:1000px;
+        #work{ margin-top:100px;
+            height:auto;
         }
         h2{ font-size:36px;
             left:20%;
@@ -390,11 +398,14 @@ width:4px;}
             width:50px;
         }
 
-        #para4{
-            left:12%;
-             font-size:28px;
+         #para4{/*position:relative;
+           margin-top:10%;
+           margin-left:0px;
+            
+             font-size:28px; */
+             display:none;
         }
-        .contact{
+        #contact{
             height:220px;
             top:400px;
         }
@@ -402,8 +413,8 @@ width:4px;}
             font-size:20px;
             left:5%;
         }
-        #con{
-            left:5%;
+        #con{font-size:38px;
+            left:10%;
 
         }
         #heart img{
